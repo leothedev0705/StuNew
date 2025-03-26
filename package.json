@@ -1,0 +1,19 @@
+{
+  "name": "stu-dex",
+  "version": "1.0.0",
+  "description": "Student study management application",
+  "main": "src/main/main.ts",
+  "scripts": {
+    "start": "electron .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "electron": "^28.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
